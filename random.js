@@ -1,4 +1,4 @@
-let url = 'https://ckennington.github.io/bom/bom.json';
+let url = 'https://ckennington.github.io/bom.json';
 
 fetch(url)
 .then(res => res.json())
