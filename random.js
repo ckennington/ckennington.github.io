@@ -1,4 +1,4 @@
-let url = 'https://ckennington.github.io/bom.json';
+let url = 'https://ckennington.github.io/bom/bom.json';
 
 alert("hello")
 
