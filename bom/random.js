@@ -7,6 +7,6 @@ fetch(url)
   var chapters = books['chapters'][Math.floor(Math.random()*books['chapters'].length)];
   var verse = chapters['verses'][Math.floor(Math.random()*chapters['verses'].length)];
   console.log('Checkout this JSON! ', verse);
-  $("body").text(verse)
+  $("body").text(JSON.stringify(verse))
 })
 .catch(err => { throw err });
