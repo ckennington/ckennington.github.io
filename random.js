@@ -1,6 +1,5 @@
 let url = 'https://ckennington.github.io/bom/bom.json';
 
-alert("hello")
 
 fetch(url)
 .then(res => res.json())
