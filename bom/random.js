@@ -1,7 +1,5 @@
 let url = 'https://ckennington.github.io/bom/bom.json';
 
-alert("5")
-
 fetch(url)
 .then(res => res.json())
 .then((out) => {
@@ -9,5 +7,6 @@ fetch(url)
   var chapters = books['chapters'][Math.floor(Math.random()*books['chapters'].length)];
   var verse = chapters['verses'][Math.floor(Math.random()*chapters['verses'].length)];
   console.log('Checkout this JSON! ', verse);
+  $("body").text(verse)
 })
 .catch(err => { throw err });
